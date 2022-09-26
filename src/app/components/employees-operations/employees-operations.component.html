@@ -1,0 +1,9 @@
+<div>
+    <div class="bg-dark text-light">
+    <h3 class="text-center bg-dark text-light p-3 col-md-4">Employees Operations</h3>
+    </div>
+    <app-create-employees  *ngIf="formflag==='create'"></app-create-employees>
+    <app-update-employee *ngIf="formflag==='update'" [emp] ="currentEmp" (oncancelUpdateEevent)="cancelUpdateForm($event)"></app-update-employee>
+    <app-display-employees (onEmpnEditEvent)="editEmployee($event)"></app-display-employees>
+</div>
+
