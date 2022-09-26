@@ -1,4 +1,7 @@
-# 5employeesOperations
+# Employees Operation 
+This project was made using Angular framework. It have various Employees Operation such as Create Employees,Display all Employees, Delete Employee, Get Employee By ID , Update Employee. It have all the crud operaations. It can easily Integrated with Express Js using MongoDB as cdatabase.  
+
+# employeesOperations
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
 
